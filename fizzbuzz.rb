@@ -9,7 +9,6 @@ def fizzbuzz(div)
   elsif div%5==0
     return 'Buzz'
   else
-    binding.pry
     return nil
   end
 end
